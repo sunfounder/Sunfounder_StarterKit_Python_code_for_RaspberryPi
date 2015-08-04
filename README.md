@@ -20,9 +20,9 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 Sunfounder Starter Kit Python code version 1.0, Copyright (C) 2015 Cavon
-Sunfounder Starter Kit Python code comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+Sunfounder Starter Kit Python code comes with ABSOLUTELY NO WARRANTY; for details run  `./show w`.
 This is free software, and you are welcome to redistribute it
-under certain conditions; type `show c' for details.
+under certain conditions; run `show c` for details.
 
 SunFounder, Inc., hereby disclaims all copyright interest in the program
 'Sunfounder Starter Kit Python code ' (which makes passes at compilers) written by Cavon Lee.
