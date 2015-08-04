@@ -18,8 +18,15 @@ def map(x, in_min, in_max, out_min, out_max):
 def loop():
 	while True:
 		analogVal = ADC.getResult(0)
-		print analogVal
-		#p.ChangeDutyCycle(analogVal-150)
+		print "value =", analogVal
+		illum = map(analogVal, 130, 255, 0, 100)
+		if illum > 80:
+			illum = 80
+		if illum < 0:
+			illum = 0
+		p.ChangeDutyCycle(illum)
+		print illum
+		time.sleep(0.05)
 
 if __name__ == '__main__':
 	try:
