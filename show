@@ -5,7 +5,7 @@ license = open('LICENSE')
 flag = False
 
 def notice():
-	print 'Command error.\nUsage:\n  show c      Show conditions\n  show w      Show Warranty'
+	print 'Command Error.\nUsage:\n  show c      Show Conditions\n  show w      Show No Warranty'
 	quit()
 
 def showc():
@@ -14,7 +14,7 @@ def showc():
 		if i[0:4] == '  2.':
 			flag = True
 			print '\n'
-			print '                Conditions:'
+			print '                             Conditions:'
 		if flag == True and i[0:4] == '    ':
 			if i[4:7] in ['a) ', 'b) ', 'c) ']:
 				print '\n'
