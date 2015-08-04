@@ -1,7 +1,7 @@
 ### Sunfounder_StarterKit_Python_code_for_RaspberryPi
-This is the Python code for both the SunFounder Starter Kit and SunFounder LCD Starter Kit.
+This is the Python code for both the SunFounder Starter Kit and SunFounder LCD Starter Kit.\br
 The program might need a superuser permission. Run the program like:
-`sudo python 01_blinkingLed.py`
+  `sudo python 01_blinkingLed.py`
 
 Copyright (C) 2015 Cavon
 
