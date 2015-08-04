@@ -41,7 +41,6 @@ def showw():
 
 def main():
 	if len(sys.argv) != 2:
-		print '1'
 		notice()
 	elif sys.argv[1] == 'c' or sys.argv[1] == 'C':
 		showc()
